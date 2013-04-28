@@ -29,8 +29,8 @@ MVC contains base classes for two of the three MVC components:
 * Controller
 	* BaseController implements the basic functionality of a Controller but returns an instance of EmptyView.
 * View
-	* ReusableView implements a view that can be used multiple times in the same context (e.g.: page).
-	* SingularView implements a view that can be used only once in the same context (e.g.: page). FOr example, a series of contact forms for different types of addresses.
+	* ReusableView implements a view that can be used multiple times in the same context (e.g.: page). For example, a series of contact forms for different types of addresses.
+	* SingularView implements a view that can be used only once in the same context (e.g.: page).
 
 There is no base class for the Model component.
 
