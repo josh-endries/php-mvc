@@ -9,3 +9,7 @@ require_once(dirname(__FILE__).DIRECTORY_SEPARATOR.'EmptyView.php');
 require_once(dirname(__FILE__).DIRECTORY_SEPARATOR.'BaseController.php');
 require_once(dirname(__FILE__).DIRECTORY_SEPARATOR.'ReusableView.php');
 require_once(dirname(__FILE__).DIRECTORY_SEPARATOR.'SingularView.php');
+require_once(dirname(__FILE__).DIRECTORY_SEPARATOR.'Message_Priority.php');
+require_once(dirname(__FILE__).DIRECTORY_SEPARATOR.'Message.php');
+require_once(dirname(__FILE__).DIRECTORY_SEPARATOR.'UnknownControllerException.php');
+require_once(dirname(__FILE__).DIRECTORY_SEPARATOR.'Dispatch.php');

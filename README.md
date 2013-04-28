@@ -19,6 +19,16 @@ PHP MVC is a simple, lightweight, PHP-based MVC framework.
 
 
 
+Requirements
+------------
+
+This framework has a couple relatively simple requirements:
+
+* Sessions are enabled.
+* Sessions contain a "messages" Array that is used for displaying messages (via Message objects) to the user.
+* If using the dispatcher, the classes must be loaded before calling Dispatch::service().
+
+
 Usage
 -----
 
@@ -33,6 +43,8 @@ MVC contains base classes for two of the three MVC components:
 	* SingularView implements a view that can be used only once in the same context (e.g.: page).
 
 There is no base class for the Model component.
+
+The Dispatch class creates an instance of the appropriate controller and calls its service() method.
 
 	
 
